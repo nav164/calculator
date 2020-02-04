@@ -16,7 +16,7 @@ exports.calculate = function(req, res) {
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
   };
-
+  // Dummy commit
   // Determine the operation
 
   if (! req.query.operation) {
